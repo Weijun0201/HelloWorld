@@ -11,9 +11,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView txv =(TextView) findViewById(R.id.txv);
-        TestMaster();
-        txv.setText("Hello Tcyang");
-        TestDev();
+        txv.setText("嗨，我是曾偉俊");
+        //TestMaster();
+       // TestDev();
     }
 
     public void TestMaster(){
